@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Diogo">
-    <title>Calculadora</title>
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="buttons">
+            <button id="yellowB" onclick="acrescentar('+')" class="btn-operador">+</button>
+            <button onclick="acrescentar('7')">7</button>
+            <button onclick="acrescentar('8')">8</button>
+            <button onclick="acrescentar('9')">9</button>
+            <button onclick="acrescentar('-')" class="btn-operador">-</button>
+            <button onclick="acrescentar('4')">4</button>
+            <button onclick="acrescentar('5')">5</button>
+            <button onclick="acrescentar('6')">6</button>
+            <button onclick="acrescentar('*')" class="btn-operador">X</button>
+            <button onclick="acrescentar('1')">1</button>
+            <button onclick="acrescentar('2')">2</button>
+            <button onclick="acrescentar('3')">3</button>
+            <button onclick="acrescentar('/')" class="btn-operador">/</button>
+            <button onclick="acrescentar('0')">0</button>
+            <button onclick="acrescentar('.')">,</button>
+            <button onclick="calcular()" class="btn-operador">=</button>
+            <button onclick="limparDisplay()">C</button>
+        </div>
+    </div>
+
 </body>
+
 </html>
