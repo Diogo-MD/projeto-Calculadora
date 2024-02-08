@@ -7,7 +7,7 @@
 
 <hr><h3 align="center">💡 Características Principais 💡</h3>
 
-<p align="center">
+<p align="left">
   • <b>Design Sofisticado:</b> O layout da calculadora foi projetado para refletir a estética clean e moderna do iPhone, proporcionando uma experiência visual agradável.<br><br>
   • <b>Funcionalidades Básicas:</b> Realize operações matemáticas essenciais de adição, subtração, multiplicação e divisão de forma rápida e eficiente.<br><br>
   • <b>Operação Intuitiva:</b>Os botões foram projetados para serem intuitivos, proporcionando uma navegação fácil e rápida.<br><br>
